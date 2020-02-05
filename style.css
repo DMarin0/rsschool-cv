@@ -1,26 +1,58 @@
 html {
-    font-size: 10px;
-  }
-  body {
-    margin: 0;
-    font-family: "", sans-serif;
-    color: black;
-    font-size: 1rem;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  p {
-    margin: 0 0 1rem;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0 0 1rem;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.header {
+    margin: 30px 0;
+    display: flex;
+}
+.header__img {
+    width: 50%;
+}
+.header__img img {
+    border-radius: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header__title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.header__name {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+.header__text {
+    font-size: 2em;
+}
