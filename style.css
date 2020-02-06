@@ -3,7 +3,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 1rem;
 }
@@ -29,30 +29,73 @@ p {
   box-sizing: border-box;
 }
 .header {
-    margin: 30px 0;
-    display: flex;
+  margin: 30px 0;
+  display: flex;
 }
 .header__img {
-    width: 50%;
+  width: 50%;
 }
 .header__img img {
-    border-radius: 20px;
-    display: block;
-    max-width: 100%;
-    height: auto;
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .header__title {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
 }
 .header__name {
-    font-size: 4em;
-    margin-bottom: 1em;
+  font-size: 4em;
+  margin-bottom: 1em;
 }
 .header__text {
-    font-size: 2em;
+  line-height: 1.5;
+  font-size: 2em;
+}
+
+/* Section ABOUT */
+.section__title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about__item {
+  width: 33.3333%;
+  padding: 0 20px 30px 20px;
+  margin-bottom: 3em;
+  min-width: 340px;
+}
+.about__item--border {
+  border-bottom: 1px solid red;
+}
+.about__title {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.about__skills {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+.about__skills li {
+  padding-left: 1em;
+}
+.about__text {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  text-decoration: none;
+  list-style: square;
+}
+.about__text a {
+  text-decoration: none;
 }
